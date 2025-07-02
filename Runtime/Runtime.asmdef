@@ -1,5 +1,5 @@
 {
-  "name": "Renatuscape.unity-debug-logger.Runtime",
+  "name": "renatuscape.unity-debug-logger.runtime",
   "allowUnsafeCode": false,
   "autoReferenced": true,
   "defineConstraints": [],
