@@ -5,3 +5,6 @@
 
 ### V1.0.2
 * Fixed error in Runtime.asmdef
+
+### V1.0.3
+* Add unity meta files
