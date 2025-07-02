@@ -1,0 +1,12 @@
+{
+  "name": "com.Renatuscape.unity-debug-logger",
+  "version": "1.0.0",
+  "displayName": "Unity Debug Logger",
+  "description": "Tool for printing debug statements to console and to file.",
+  "unity": "2021.3",
+  "keywords": ["Unity", "debug", "logging"],
+  "author": {
+    "name": "Renatuscape",
+    "email": "renatuscape@gmail.com"
+  }
+}
