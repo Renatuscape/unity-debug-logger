@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class Report
 {
-    internal static void Write(
+    public static void Write(
     string input,
     [CallerFilePath] string sourceFilePath = "",
     [CallerMemberName] string memberName = "")
@@ -18,7 +18,7 @@ public static class Report
         DebugManager.LogDebugStatement(formattedEntry);
     }
 
-    internal static void WriteError(
+    public static void WriteError(
     string input,
     [CallerFilePath] string sourceFilePath = "",
     [CallerMemberName] string memberName = "")
@@ -31,7 +31,7 @@ public static class Report
         DebugManager.LogDebugStatement(formattedEntry);
     }
 
-    internal static void WriteWarning(
+    public static void WriteWarning(
     string input,
     [CallerFilePath] string sourceFilePath = "",
     [CallerMemberName] string memberName = "")

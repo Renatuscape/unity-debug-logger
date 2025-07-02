@@ -8,3 +8,5 @@
 
 ### V1.0.3
 * Add unity meta files
+* Update use guide
+* Change Report methods from internal to public

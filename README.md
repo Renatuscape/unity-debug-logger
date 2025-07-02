@@ -4,15 +4,16 @@ A tool that allows debug statements to write both to console and to file.
 ## Using in Projects:
 In Unity's Package Manager window:
 
-Click "+" → "Add package from git URL"
-Enter: https://github.com/yourusername/your-unity-tools.git#v1.0.0
+* Click "+" → "Add package from git URL"
+* Enter: https://github.com/Renatuscape/unity-debug-logger.git.
 
-Each project gets its own Packages/manifest.json entry:
+If this does not work, add manually in your Unity project's Packages/manifest.json:
 
 ```
 {
   "dependencies": {
-    "com.yourname.devtools": "https://github.com/yourusername/your-unity-tools.git#v1.0.0"
+    "com.renatuscape.unity-debug-logger": "https://github.com/Renatuscape/unity-debug-logger.git",
+    ... other dependencies
   }
 }
 ```
