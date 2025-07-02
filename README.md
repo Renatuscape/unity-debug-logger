@@ -20,12 +20,12 @@ Each project gets its own Packages/manifest.json entry:
 # Dev Instructions
 ### Tagging new versions
 #### After committing your changes
-git tag v1.0.0
-git push origin v1.0.0
+* git tag v1.0.0
+* git push origin v1.0.0
 
 #### For updates
-git tag v1.1.0
-git push origin v1.1.0
+* git tag v1.1.0
+* git push origin v1.1.0
 
 ### Runtime Folder
 Purpose: Code that runs in the actual game/application
